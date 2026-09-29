@@ -1,0 +1,69 @@
+[
+  {
+    "slug": "Exterior-Finishes",
+    "url": "https://mrpaintinghousesaz.com/galleries/Exterior-Finishes/",
+    "title": "Exterior Finishes",
+    "pageTitle": "Exterior House Painting in Gilbert, AZ | MR Painting Houses LLC",
+    "metaDescription": "A collection of exterior finishes photos to showcase our best work as a painters company. See what Mr Painting Houses LLC can do for you!",
+    "description": "See for yourself why our customers love us",
+    "images": null,
+    "notes": [
+      "Live site uses the same generic <title> on every service/area/gallery page (verbatim).",
+      "Direct URL returned HTTP 404 to WebFetch; content retrieved via the same URL with '?v=1' appended.",
+      "Gallery photos are not present in the page's static HTML (likely loaded client-side by JavaScript); WebFetch returned only the site logo and shared hero image. Gallery images must be exported from the site builder (TopLine Pro/ProSite) or captured with a real browser."
+    ]
+  },
+  {
+    "slug": "Interior-Makeovers",
+    "url": "https://mrpaintinghousesaz.com/galleries/Interior-Makeovers/",
+    "title": "Interior Makeovers",
+    "pageTitle": "Exterior House Painting in Gilbert, AZ | MR Painting Houses LLC",
+    "metaDescription": "A collection of interior makeovers photos to showcase our best work as a painters company. See what Mr Painting Houses LLC can do for you!",
+    "description": "See for yourself why our customers love us",
+    "images": null,
+    "notes": [
+      "Live site uses the same generic <title> on every service/area/gallery page (verbatim).",
+      "Direct URL returned HTTP 404 to WebFetch; content retrieved via the same URL with '?v=1' appended.",
+      "Gallery photos are not present in the page's static HTML (likely loaded client-side by JavaScript); WebFetch returned only the site logo and shared hero image. Gallery images must be exported from the site builder (TopLine Pro/ProSite) or captured with a real browser."
+    ]
+  },
+  {
+    "slug": "Exterior",
+    "url": "https://mrpaintinghousesaz.com/galleries/Exterior/",
+    "title": "Exterior",
+    "pageTitle": "Exterior House Painting in Gilbert, AZ | MR Painting Houses LLC",
+    "metaDescription": "A collection of exterior photos to showcase our best work as a painters company. See what Mr Painting Houses LLC can do for you!",
+    "description": "See for yourself why our customers love us",
+    "images": [
+      {
+        "src": "https://d3p2r6ofnvoe67.cloudfront.net/fit-in/800x800/filters:format(jpg)/filters:strip_exif()/filters:no_upscale()/media/e074174e-f398-4f62-a2e9-d96079f059f7.png",
+        "alt": null
+      },
+      {
+        "src": "https://d3p2r6ofnvoe67.cloudfront.net/fit-in/800x800/filters:format(jpg)/filters:strip_exif()/filters:no_upscale()/media/404354b5-abba-4023-8160-4ed4c15efaab.png",
+        "alt": null
+      }
+    ],
+    "notes": [
+      "Live site uses the same generic <title> on every service/area/gallery page (verbatim).",
+      "Direct URL returned HTTP 404 to WebFetch; content retrieved via the same URL with '?v=1' appended.",
+      "Only 2 image URLs were returned (PNG, alt not returned); the full gallery may be larger and JS-loaded. UNVERIFIED.",
+      "Footer on this page lists business hours (verbatim): Sunday: 8:00am - 3:00pm; Monday-Friday: 6:00am - 6:00am; Saturday: 6:00am - 5:00pm (the '6:00am - 6:00am' is as shown on the live site, likely a data-entry error).",
+      "Footer service-areas list (verbatim): Laveen Village, Gilbert, Chandler, Scottsdale, Phoenix, Glendale, Maryvale, Peroria [sic], Tempe, Tempe Junction, Alhambra, Ahwatukee Foothills, Mesa, Queen Creek, San Tan Heights, Gold Canyon, Fountain Hills (all AZ)."
+    ]
+  },
+  {
+    "slug": "Residential-Painting",
+    "url": "https://mrpaintinghousesaz.com/galleries/Residential-Painting/",
+    "title": "Residential Painting",
+    "pageTitle": "Exterior House Painting in Gilbert, AZ | MR Painting Houses LLC",
+    "metaDescription": "A collection of residential painting photos to showcase our best work as a painters company. See what Mr Painting Houses LLC can do for you!",
+    "description": "See for yourself why our customers love us",
+    "images": null,
+    "notes": [
+      "Live site uses the same generic <title> on every service/area/gallery page (verbatim).",
+      "Direct URL returned HTTP 404 to WebFetch; content retrieved via the same URL with '?v=1' appended.",
+      "Gallery photos are not present in the page's static HTML (likely loaded client-side by JavaScript); WebFetch returned only the site logo and shared hero image. Gallery images must be exported from the site builder (TopLine Pro/ProSite) or captured with a real browser."
+    ]
+  }
+]
