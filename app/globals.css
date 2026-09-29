@@ -1,10 +1,3 @@
-@import "@fontsource/barlow/400.css";
-@import "@fontsource/barlow/500.css";
-@import "@fontsource/barlow/600.css";
-@import "@fontsource/barlow/700.css";
-@import "@fontsource/barlow-condensed/600.css";
-@import "@fontsource/barlow-condensed/900.css";
-
 :root {
   --red: #e3120b;
   --red-dark: #b50e08;
@@ -16,8 +9,8 @@
   --grey-2: #bdbdb6;
   --line: #d6d6d1;
   --star: #fbbc04;
-  --display: "Barlow Condensed", "Arial Narrow", sans-serif;
-  --body: "Barlow", system-ui, sans-serif;
+  --display: var(--font-fraunces), serif;
+  --body: var(--font-work-sans), sans-serif;
   --wrap: 1328px;
   --gutter: clamp(16px, 4vw, 56px);
 }
