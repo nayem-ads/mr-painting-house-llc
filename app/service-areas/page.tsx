@@ -13,7 +13,7 @@ export default function Areas() {
   const others = FOOTER_AREAS.filter((a) => !CITIES.some((c) => c.name === a));
   return (
     <>
-      <PageHero title="Where we paint" text="Home base is Laveen. Our crews paint homes from the West Valley to the East Valley." img={IMG.ranch} crumbs={[["Home", "/"], ["Service areas"]]} />
+      <PageHero title="Where we paint" text="Home base is Laveen. Our crews paint homes from the West Valley to the East Valley." img={IMG.truck} crumbs={[["Home", "/"], ["Service areas"]]} />
       <AreaMap />
       <section className="section section--primer">
         <div className="wrap">

@@ -65,15 +65,25 @@ export const IMG = {
   ranch: media("6889acd3-affc-49a2-b2bb-b6fe02525f5e.jpeg"),
   front: media("a6a4fe58-033f-4ae8-8670-1a14c3c71a36.jpeg"),
   interior: media("14c8bde9-870e-433a-9d0e-44190be62720.jpeg"),
+  // Client-supplied job photos (public/work)
+  yardSign: "/work/yard-sign-stucco.jpg",
+  stoneSign: "/work/stone-exterior-sign.jpg",
+  truck: "/work/truck-trailer.jpg",
+  exteriorMasking: "/work/exterior-masking.jpg",
+  interiorRolling: "/work/interior-rolling.jpg",
+  kitchenProtected: "/work/kitchen-protected.jpg",
+  kitchenFinished: "/work/kitchen-finished.jpg",
+  cabinetsProgress: "/work/cabinets-in-progress.jpg",
+  cabinetDoors: "/work/cabinet-doors-spraying.jpg",
 };
 
 export type ServiceMeta = { slug: string; name: string; short: string; img: string; featured?: boolean };
 export const SERVICES: ServiceMeta[] = [
   { slug: "exterior-painting", name: "Exterior Painting", short: "Stucco, fascia, trim, doors and block walls", img: IMG.twoStoryB, featured: true },
-  { slug: "interior-painting", name: "Interior Painting", short: "Walls, ceilings, trim and doors", img: IMG.interior, featured: true },
-  { slug: "kitchen-cabinet-repainting", name: "Kitchen Cabinet Repainting", short: "A factory-smooth finish without replacing cabinets", img: IMG.cabinets, featured: true },
+  { slug: "interior-painting", name: "Interior Painting", short: "Walls, ceilings, trim and doors", img: IMG.interiorRolling, featured: true },
+  { slug: "kitchen-cabinet-repainting", name: "Kitchen Cabinet Repainting", short: "A factory-smooth finish without replacing cabinets", img: IMG.cabinetDoors, featured: true },
   { slug: "drywall-installation-repair", name: "Drywall Installation & Repair", short: "Cracks, holes and texture matching", img: IMG.drywall },
-  { slug: "detailed-surface-preparation", name: "Detailed Surface Preparation", short: "Wash, scrape, patch and prime so paint lasts", img: IMG.swatches },
+  { slug: "detailed-surface-preparation", name: "Detailed Surface Preparation", short: "Wash, scrape, patch and prime so paint lasts", img: IMG.exteriorMasking },
   { slug: "deck-and-fence-staining", name: "Deck and Fence Staining", short: "Wood protected from sun and monsoon", img: IMG.ranch },
   { slug: "cool-deck-restoration", name: "Cool Deck Restoration", short: "Pool deck coatings that stay cooler underfoot", img: IMG.pool },
   { slug: "flat-roof-application", name: "Flat Roof Application", short: "Recoating for flat and low-slope roofs", img: IMG.front },

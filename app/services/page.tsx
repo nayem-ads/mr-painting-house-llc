@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function Services() {
   return (
     <>
-      <PageHero title="Painting services" text="Everything a Valley home needs painted, repaired or recoated — handled by one licensed crew." img={IMG.twoStoryB} crumbs={[["Home", "/"], ["Services"]]} />
+      <PageHero title="Painting services" text="Everything a Valley home needs painted, repaired or recoated — handled by one licensed crew." img={IMG.stoneSign} crumbs={[["Home", "/"], ["Services"]]} />
       <Swatches title="What we do" all />
       <Process />
       <ReviewsBlock limit={4} />

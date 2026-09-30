@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
     <>
-      <PageHero title="Get your free estimate" text="Tell us about the project. We'll call to book a walkthrough and put scope, products and price in writing." img={IMG.twoStoryC} crumbs={[["Home", "/"], ["Contact"]]} cta={false} />
+      <PageHero title="Get your free estimate" text="Tell us about the project. We'll call to book a walkthrough and put scope, products and price in writing." img={IMG.yardSign} crumbs={[["Home", "/"], ["Contact"]]} cta={false} />
       <FullFormSection id="form" />
     </>
   );

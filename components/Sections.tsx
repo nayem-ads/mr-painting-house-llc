@@ -7,8 +7,8 @@ export function Hero() {
   return (
     <section className="hero" aria-label="Intro">
       <div className="hero__stage">
-        <img className="hero__img" src={IMG.twoStory} alt="Two-story stucco home freshly painted by Mr Painting Houses" fetchPriority="high" />
-        <img className="hero__faded" src={IMG.twoStory} alt="" aria-hidden="true" />
+        <img className="hero__img" src={IMG.exteriorMasking} alt="Mr Painting Houses painter masking a stucco home before spraying" fetchPriority="high" />
+        <img className="hero__faded" src={IMG.exteriorMasking} alt="" aria-hidden="true" />
         <div className="hero__scrim" />
         <div className="hero__edge" aria-hidden="true" />
         <div className="roller" aria-hidden="true"><div className="roller__frame" /><div className="roller__cover" /><div className="roller__handle" /></div>
@@ -67,9 +67,7 @@ export function YardSign() {
   return (
     <section className="section">
       <div className="wrap yard">
-        <div className="sign" aria-hidden="true">
-          <div className="sign__board"><p>Another home painted by</p><img src={IMG.logo} alt="" width={360} height={180} /><span className="sign__phone">{BIZ.phone}</span></div>
-        </div>
+        <figure className="signphoto"><img src={IMG.stoneSign} alt="Mr Painting Houses yard sign outside a home the crew is repainting" loading="lazy" /></figure>
         <div>
           <h2 className="h-lg">Seen our sign on your street?</h2>
           <p className="lead mt">Our crews paint homes across the Valley, from Goodyear to Gilbert. Ask your neighbors — then ask us for the same finish on yours.</p>
@@ -82,11 +80,11 @@ export function YardSign() {
 
 export function Process() {
   const steps: [string, string, string][] = [
-    ["Walkthrough", "We inspect every wall, eave and fascia board, talk colors and give you a written quote.", IMG.crew],
-    ["Protect & prep", "Cover walls, windows, floors, lights and landscaping. Power wash, scrape, fix cracks.", IMG.swatches],
-    ["Prime", "Prime for proper adhesion — Pro-Cryl® and DTM on bare spots, patches and metal.", IMG.front],
-    ["Paint", "Premium Sherwin-Williams coatings, with elastomeric on fascia where it's needed.", IMG.ranch],
-    ["Final walk", "We walk it with you and clean up until there's no sign we were there.", IMG.singleStory],
+    ["Walkthrough", "We inspect every wall, eave and fascia board, talk colors and give you a written quote.", IMG.truck],
+    ["Protect & prep", "Cover walls, windows, floors, lights and landscaping. Power wash, scrape, fix cracks.", IMG.kitchenProtected],
+    ["Prime", "Prime for proper adhesion — Pro-Cryl® and DTM on bare spots, patches and metal.", IMG.exteriorMasking],
+    ["Paint", "Premium Sherwin-Williams coatings, with elastomeric on fascia where it's needed.", IMG.interiorRolling],
+    ["Final walk", "We walk it with you and clean up until there's no sign we were there.", IMG.kitchenFinished],
   ];
   return (
     <section className="section section--black">
@@ -94,7 +92,7 @@ export function Process() {
         <div className="head-row"><h2 className="h-lg">How a job goes</h2><p className="lead">Prep is where most paint jobs fail in Arizona heat. It's where we spend the most time.</p></div>
         <ol className="steps">
           {steps.map(([t, d, img], i) => (
-            <li key={t}><span className="tape">Step {i + 1}</span><div className="bar" /><h3>{t}</h3><p>{d}</p><img src={img} alt="" loading="lazy" style={i === 0 ? { objectPosition: "center 75%" } : undefined} /></li>
+            <li key={t}><span className="tape">Step {i + 1}</span><div className="bar" /><h3>{t}</h3><p>{d}</p><img src={img} alt="" loading="lazy"  /></li>
           ))}
         </ol>
       </div>
@@ -103,7 +101,7 @@ export function Process() {
 }
 
 export function Gallery() {
-  const g = [IMG.pool, IMG.modern, IMG.twoStoryC, IMG.cabinets, IMG.kitchen, IMG.ranch, IMG.interior, IMG.singleStory, IMG.front, IMG.twoStoryB];
+  const g = [IMG.kitchenFinished, IMG.pool, IMG.stoneSign, IMG.cabinetsProgress, IMG.yardSign, IMG.cabinets, IMG.interiorRolling, IMG.twoStoryC, IMG.kitchen, IMG.twoStoryB];
   return (
     <section className="section">
       <div className="wrap">

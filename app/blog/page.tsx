@@ -14,7 +14,7 @@ export default function Blog() {
   const posts = getPosts();
   return (
     <>
-      <PageHero title="Painting tips & ideas" text="Advice from the crew on prep, finishes, colors and keeping paint looking good in Arizona." img={IMG.kitchen} crumbs={[["Home", "/"], ["Blog"]]} cta={false} />
+      <PageHero title="Painting tips & ideas" text="Advice from the crew on prep, finishes, colors and keeping paint looking good in Arizona." img={IMG.kitchenFinished} crumbs={[["Home", "/"], ["Blog"]]} cta={false} />
       <section className="section">
         <div className="wrap grid-cards">
           {posts.map((p) => (

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <>
-      <PageHero title="About Mr Painting Houses" text={`A licensed Laveen crew with ${BIZ.years} years of experience painting Arizona homes.`} img={IMG.pool} crumbs={[["Home", "/"], ["About"]]} />
+      <PageHero title="About Mr Painting Houses" text={`A licensed Laveen crew with ${BIZ.years} years of experience painting Arizona homes.`} img={IMG.truck} crumbs={[["Home", "/"], ["About"]]} />
       <ProofBand />
       <section className="section">
         <div className="wrap yard" style={{ gridTemplateColumns: "1fr 1fr" }}>

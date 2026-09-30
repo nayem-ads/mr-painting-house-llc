@@ -13,7 +13,7 @@ const ld = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: F
 export default function FaqPage() {
   return (
     <>
-      <PageHero title="Questions & answers" text="The things homeowners ask us most before a paint job." img={IMG.swatches} crumbs={[["Home", "/"], ["FAQ"]]} />
+      <PageHero title="Questions & answers" text="The things homeowners ask us most before a paint job." img={IMG.exteriorMasking} crumbs={[["Home", "/"], ["FAQ"]]} />
       <Faq />
       <CtaBand />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
