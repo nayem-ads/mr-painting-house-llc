@@ -164,7 +164,7 @@ export function AreaMap() {
         <div className="map" role="img" aria-label="Map of the Phoenix Valley showing cities we serve">
           {[1, 2, 3, 4, 5].map((i) => <span key={i} className="map__ring" style={{ ...pos(hq.lat, hq.lon), width: `${i * 24}%`, aspectRatio: "1" }} />)}
           {CITIES.map((c, i) => (
-            <Link key={c.slug} href={`/service-areas/${c.slug}`} className={"map__pin" + (i === 0 ? " map__pin--hq" : "")} style={pos(c.lat, c.lon)}>
+            <Link key={c.slug} href={`/service-areas/${c.slug}`} className={"map__pin" + (i === 0 ? " map__pin--hq" : "") + (c.lon > -111.65 ? " map__pin--left" : "")} style={pos(c.lat, c.lon)}>
               <span>{i === 0 ? "Laveen HQ" : c.name}</span>
             </Link>
           ))}
