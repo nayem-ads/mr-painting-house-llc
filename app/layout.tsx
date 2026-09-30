@@ -1,12 +1,9 @@
 import type { Metadata, Viewport } from "next";
-import { Fraunces, Work_Sans } from "next/font/google";
 import "./globals.css";
 import { Header, StickyBar } from "@/components/Chrome";
 import { Footer } from "@/components/Footer";
 import { BIZ, HOURS, IMG } from "@/lib/site";
 
-const fraunces = Fraunces({ subsets: ["latin"], variable: "--font-fraunces", display: "swap" });
-const workSans = Work_Sans({ subsets: ["latin"], variable: "--font-work-sans", display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(BIZ.siteUrl),
@@ -38,7 +35,7 @@ const jsonLd = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${fraunces.variable} ${workSans.variable}`}>
+    <html lang="en">
       <body>
         <a className="sr-only" href="#main">Skip to content</a>
         <Header />
