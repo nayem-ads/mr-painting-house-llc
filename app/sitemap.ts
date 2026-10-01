@@ -4,7 +4,7 @@ import { BIZ, CITIES, SERVICES } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const u = (p: string) => BIZ.siteUrl + p;
-  const staticPages = ["", "/services", "/service-areas", "/showcases", "/reviews", "/blog", "/about", "/faq", "/contact", "/privacy-policy"];
+  const staticPages = ["", "/services", "/service-areas", "/showcases", "/reviews", "/blog", "/about", "/30-years", "/faq", "/contact", "/privacy-policy"];
   return [
     ...staticPages.map((p) => ({ url: u(p) })),
     ...SERVICES.map((s) => ({ url: u(`/services/${s.slug}`) })),

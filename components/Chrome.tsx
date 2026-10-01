@@ -12,6 +12,7 @@ const MENU: Menu[] = [
   { label: "Service areas", href: "/service-areas", items: [...CITIES.map((c) => ({ href: `/service-areas/${c.slug}`, label: c.name })), { href: "/service-areas", label: "All service areas" }] },
   { label: "Our work", href: "/showcases" },
   { label: "Reviews", href: "/reviews" },
+  { label: "30 years", href: "/30-years" },
   { label: "About", href: "/about", items: [{ href: "/about", label: "About us" }, { href: "/faq", label: "FAQ" }, { href: "/blog", label: "Blog" }, { href: "/contact", label: "Contact" }] },
 ];
 
