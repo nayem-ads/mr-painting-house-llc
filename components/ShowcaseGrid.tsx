@@ -4,7 +4,7 @@ import { useState } from "react";
 type Item = { title: string; city: string; date?: string; description: string; image: string | null; kind: string };
 
 export function ShowcaseGrid({ items }: { items: Item[] }) {
-  const kinds = ["All", "Exterior", "Interior", "Cabinets"];
+  const kinds = ["All", "Exterior", "Interior", "Cabinets", "Pergola"];
   const [k, setK] = useState("All");
   const shown = items.filter((i) => k === "All" || i.kind === k);
   return (
@@ -16,7 +16,7 @@ export function ShowcaseGrid({ items }: { items: Item[] }) {
         {shown.map((p) => (
           <article className="pcard" key={p.title + p.city}>
             {p.image ? <img src={p.image} alt={p.title} loading="lazy" /> : null}
-            <div><span className="meta">{p.city}{p.date ? " — " + p.date : ""}</span><h3>{p.title}</h3><p>{p.description}</p></div>
+            <div><span className="meta">{p.city || "Recent project"}{p.date ? " — " + p.date : ""}</span><h3>{p.title}</h3><p>{p.description}</p></div>
           </article>
         ))}
       </div>

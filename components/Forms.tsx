@@ -106,7 +106,7 @@ export function FullForm() {
       <Field id="f-msg" label="Project details (optional)"><textarea className="input" id="f-msg" name="message" placeholder="Surfaces, colors, repairs you've noticed…" /></Field>
       <button className="btn btn--red" type="submit" disabled={busy} style={{ width: "100%" }}>{busy ? "Sending…" : "Send my estimate request"}</button>
       {fail && <p className="err" role="alert">{fail}</p>}
-      <p className="form-note" style={{ color: "#8a8a8a", margin: 0 }}>By sending this, you agree to be contacted about your project by phone, text or email. Se habla español.</p>
+      <p className="form-note" style={{ color: "#8a8a8a", margin: 0 }}>By sending this, you agree to be contacted about your project by phone, text or email.</p>
     </form>
   );
 }

@@ -27,12 +27,14 @@ export function getReviews(): Review[] {
   return read<Review[]>("reviews.json").filter((r) => r.text && r.text.trim().length > 0);
 }
 
-export type Showcase = { title: string; city: string; date?: string; description: string; images: (string | null)[] };
+export type Showcase = { title: string; city: string; date?: string; description: string; images: (string | null)[]; kind?: "Interior" | "Exterior" | "Cabinets" | "Pergola" };
 export function getShowcases(): Showcase[] {
   return read<Showcase[]>("showcases.json").map((s) => ({ ...s, images: (s.images || []).filter(Boolean).map((u) => media(u as string, 1200)) }));
 }
-export function showcaseKind(s: Showcase): "Interior" | "Exterior" | "Cabinets" {
+export function showcaseKind(s: Showcase): "Interior" | "Exterior" | "Cabinets" | "Pergola" {
+  if (s.kind) return s.kind;
   const t = (s.title + " " + s.description).toLowerCase();
+  if (t.includes("pergola")) return "Pergola";
   if (t.includes("cabinet")) return "Cabinets";
   if (/(interior|bathroom|bedroom|living room|kitchen|ceiling)/.test(t)) return "Interior";
   return "Exterior";

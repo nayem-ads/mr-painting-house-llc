@@ -12,7 +12,7 @@ const MENU: Menu[] = [
   { label: "Service areas", href: "/service-areas", items: [...CITIES.map((c) => ({ href: `/service-areas/${c.slug}`, label: c.name })), { href: "/service-areas", label: "All service areas" }] },
   { label: "Our work", href: "/showcases" },
   { label: "Reviews", href: "/reviews" },
-  { label: "30 years", href: "/30-years" },
+  { label: "30+ years", href: "/30-years" },
   { label: "About", href: "/about", items: [{ href: "/about", label: "About us" }, { href: "/faq", label: "FAQ" }, { href: "/blog", label: "Blog" }, { href: "/contact", label: "Contact" }] },
 ];
 
@@ -40,7 +40,7 @@ export function Header() {
         <div className="wrap">
           <span className="hide-xs">AZ ROC #{BIZ.roc} — Licensed, bonded &amp; insured</span>
           <span className="show-xs">AZ ROC #{BIZ.roc} · Licensed, bonded &amp; insured</span>
-          <span className="hide-sm">Se habla español · Mon–Fri 6am–7pm, Sat 7am–5pm, Sun 8am–3pm</span>
+          <span className="hide-sm">Mon–Fri 6am–7pm, Sat 7am–5pm, Sun 8am–3pm</span>
         </div>
       </div>
       <header className="header">

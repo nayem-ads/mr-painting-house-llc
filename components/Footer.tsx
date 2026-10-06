@@ -24,7 +24,7 @@ export function Footer() {
           <details open>
             <summary>Company</summary>
             <h2>Company</h2>
-            <ul>{[["/", "Home"], ["/showcases", "Showcases"], ["/reviews", "Reviews"], ["/blog", "Blog"], ["/30-years", "30 Years"], ["/about", "About"], ["/faq", "FAQ"], ["/contact", "Contact"]].map(([h, l]) => <li key={h}><Link href={h}>{l}</Link></li>)}</ul>
+            <ul>{[["/", "Home"], ["/showcases", "Showcases"], ["/reviews", "Reviews"], ["/blog", "Blog"], ["/30-years", "30+ Years"], ["/about", "About"], ["/faq", "FAQ"], ["/contact", "Contact"]].map(([h, l]) => <li key={h}><Link href={h}>{l}</Link></li>)}</ul>
           </details>
           <details open>
             <summary>Services</summary>

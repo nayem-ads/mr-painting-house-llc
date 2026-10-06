@@ -1,73 +1,96 @@
 [
   {
-    "title": "Luxurious Bathroom Transformation by Mr Painting Houses LLC",
-    "city": "Phoenix, AZ",
-    "date": "Jul 2026",
-    "description": "Elevate Your Space with Expert Interior Painting. Experience the remarkable transformation of a master bathroom with Mr Painting Houses LLC. Our expert team meticulously repainted the ceilings, walls, doors, and baseboards, turning a bold red space into a serene, stylish sanctuary.",
+    "title": "Kitchen cabinets painted black",
+    "city": "",
+    "description": "Oak kitchen cabinets refinished in black. Doors came off for spraying, and counters and appliances were protected while the boxes were painted.",
     "images": [
-      "https://landing-page-app-hero-images.s3.amazonaws.com/media/c824ee8a-08d7-4e5a-906b-44e75b90d0a8.jpeg"
+      "/work/cabinets-black-after.jpg",
+      "/work/cabinets-black-before.jpg"
     ],
-    "link": null,
-    "notes": [
-      "Description is the card text shown on /showcases/ (no per-project detail pages or links exist; href null for every card).",
-      "Image URLs extracted by WebFetch's summarizing model from rendered markdown; UNVERIFIED (shell cannot reach the domain to check)."
-    ]
+    "source": "client Drive folder, Oct 2026",
+    "kind": "Cabinets"
   },
   {
-    "title": "Vibrant Transformation: Bringing Color and Elegance to Spacious Interiors",
-    "city": "Scottsdale, AZ",
-    "date": "Jun 2026",
-    "description": "Energizing Spaces: Enhancing Warmth and Depth with Bold, Vibrant Hues. At Mr Painting Houses LLC, we recently undertook a vibrant transformation project in Scottsdale, AZ aiming to infuse the space with color and elegance. Our expert team utilized a palette of bold and complementary colors to breathe new life into the spacious interiors.",
+    "title": "Pergola and outdoor kitchen staining",
+    "city": "",
+    "description": "A backyard pergola stained dark to match the outdoor kitchen, finished on every beam, rafter and post.",
     "images": [
-      "https://landing-page-app-hero-images.s3.amazonaws.com/media/0dcf9a62-a945-4c88-94dd-57d2e25bc536.jpeg"
+      "/work/pergola-saguaro.jpg",
+      "/work/pergola-string-lights.jpg",
+      "/work/pergola-outdoor-kitchen.jpg"
     ],
-    "link": null,
-    "notes": [
-      "Description is the card text shown on /showcases/ (no per-project detail pages or links exist; href null for every card).",
-      "Image URLs extracted by WebFetch's summarizing model from rendered markdown; UNVERIFIED (shell cannot reach the domain to check)."
-    ]
+    "source": "client Drive folder, Oct 2026",
+    "kind": "Pergola"
   },
   {
-    "title": "Revitalized Elegance: Transformative Exterior Painting by Mr Painting Houses LLC",
-    "city": "Gilbert, AZ",
-    "date": "Jun 2026",
-    "description": "Stunning Curb Appeal: Elevating Your Home's Value with Exquisite Paintwork. In the picturesque neighborhood of Gilbert, AZ, Mr Painting Houses LLC undertook a remarkable project titled 'Revitalized Elegance' to transform a home's exterior into a stunning work of art.",
+    "title": "Great room with a wood-beam ceiling",
+    "city": "",
+    "description": "Interior walls and ceiling repainted around exposed wood beams. Furniture, floors and the fireplace were wrapped in plastic before work started.",
     "images": [
-      "https://landing-page-app-hero-images.s3.amazonaws.com/media/0c53e10f-be20-4536-a099-1a635446650f.jpeg"
+      "/work/interior-beam-ceiling.jpg"
     ],
-    "link": null,
-    "notes": [
-      "Description is the card text shown on /showcases/ (no per-project detail pages or links exist; href null for every card).",
-      "Image URLs extracted by WebFetch's summarizing model from rendered markdown; UNVERIFIED (shell cannot reach the domain to check)."
-    ]
+    "source": "client Drive folder, Oct 2026",
+    "kind": "Interior"
   },
   {
-    "title": "Transforming Interiors: Mr Painting Houses LLC's Seamless Home Makeover",
-    "city": "Scottsdale, AZ",
-    "date": "Oct 2021",
-    "description": "Interior ceiling repaint with Swiss Coffee color flat and Suprima paint from Dunn-Edwards. Mr Painting Houses LLC recently completed a stunning interior transformation, enhancing the beauty and functionality of the home. The project focused on meticulous preparation, ensuring all furniture and fixtures were expertly covered and protected.",
+    "title": "Two-story stucco and stone exterior",
+    "city": "",
+    "description": "Full exterior repaint on a two-story stucco home with stone accents — body, trim, fascia and garage door.",
     "images": [
-      "https://landing-page-app-hero-images.s3.amazonaws.com/media/53b7b5d5-4f0a-491c-b93d-c5f06ba98831.jpeg"
+      "/work/exterior-two-story-stone.jpg"
     ],
-    "link": null,
-    "notes": [
-      "Description is the card text shown on /showcases/ (no per-project detail pages or links exist; href null for every card).",
-      "Image URLs extracted by WebFetch's summarizing model from rendered markdown; UNVERIFIED (shell cannot reach the domain to check)."
-    ]
+    "source": "client Drive folder, Oct 2026",
+    "kind": "Exterior"
   },
   {
-    "title": "Elevating Elegance: Transforming Exteriors with Expert Painting Techniques",
-    "city": "Tolleson, AZ",
-    "date": "Jun 2026",
-    "description": "Revolutionizing Curb Appeal: Stunning Exterior Makeover with Precision Painting Mastery. In the heart of Tolleson, AZ, Mr Painting Houses LLC set out to elevate the elegance of a stunning home with their expert painting techniques, transforming its exterior into a captivating display of color and craftsmanship.",
-    "images": null,
-    "link": null,
-    "notes": [
-      "Description is the card text shown on /showcases/ (no per-project detail pages or links exist; href null for every card).",
-      "Image URLs extracted by WebFetch's summarizing model from rendered markdown; UNVERIFIED (shell cannot reach the domain to check).",
-      "Image src returned as '.../media/placeholder' (no real image on the live card).",
-      "Tolleson is not in the site's service-area list."
-    ]
+    "title": "Open kitchen and great room interior",
+    "city": "",
+    "description": "Walls, ceilings and trim repainted in an open kitchen and great room.",
+    "images": [
+      "/work/interior-kitchen-great-room.jpg"
+    ],
+    "source": "client Drive folder, Oct 2026",
+    "kind": "Interior"
+  },
+  {
+    "title": "White cabinets with a gray island",
+    "city": "",
+    "description": "Perimeter kitchen cabinets painted white, with the island painted a contrasting gray.",
+    "images": [
+      "/work/cabinets-white-gray-island.jpg"
+    ],
+    "source": "client Drive folder, Oct 2026",
+    "kind": "Cabinets"
+  },
+  {
+    "title": "Two-story exterior repaint",
+    "city": "",
+    "description": "A two-story stucco home repainted top to bottom, finished with clean lines on the trim and stone.",
+    "images": [
+      "/work/exterior-two-story-driveway.jpg"
+    ],
+    "source": "client Drive folder, Oct 2026",
+    "kind": "Exterior"
+  },
+  {
+    "title": "Hallway and archway repaint",
+    "city": "",
+    "description": "Our painter cutting in an arched hallway, with work lights set up and the floor protected.",
+    "images": [
+      "/work/interior-archway-painting.jpg"
+    ],
+    "source": "client Drive folder, Oct 2026",
+    "kind": "Interior"
+  },
+  {
+    "title": "Exterior repaint in progress",
+    "city": "",
+    "description": "Our crew on ladders painting a single-story stucco exterior.",
+    "images": [
+      "/work/exterior-crew-on-ladders.jpg"
+    ],
+    "source": "client Drive folder, Oct 2026",
+    "kind": "Exterior"
   },
   {
     "title": "Transformative Color Overhaul by Mr Painting Houses LLC",
@@ -76,34 +99,6 @@
     "description": "Bringing New Life to Spaces with Expertise and Care. Discover the exceptional craftsmanship of Mr Painting Houses LLC through this transformative painting project. Our dedicated team revitalized the space, carefully selecting and applying the perfect hues to enhance both aesthetics and ambiance.",
     "images": [
       "https://landing-page-app-hero-images.s3.amazonaws.com/media/6b47df48-3526-4af3-8ee5-641ee5b5ec37.jpeg"
-    ],
-    "link": null,
-    "notes": [
-      "Description is the card text shown on /showcases/ (no per-project detail pages or links exist; href null for every card).",
-      "Image URLs extracted by WebFetch's summarizing model from rendered markdown; UNVERIFIED (shell cannot reach the domain to check)."
-    ]
-  },
-  {
-    "title": "Transform Your Home's Curb Appeal with Mr Painting Houses LLC",
-    "city": "Chandler, AZ",
-    "date": "Jul 2024",
-    "description": "Expert Exterior Painting Services in Your Neighborhood. Discover the power of a fresh, expertly applied coat of paint from Mr Painting Houses LLC, your trusted local painting experts. This recent project showcases our commitment to enhancing curb appeal with a meticulous exterior painting service.",
-    "images": [
-      "https://landing-page-app-hero-images.s3.amazonaws.com/media/990edef0-badb-4001-93eb-8e9cb187eb6b.jpeg"
-    ],
-    "link": null,
-    "notes": [
-      "Description is the card text shown on /showcases/ (no per-project detail pages or links exist; href null for every card).",
-      "Image URLs extracted by WebFetch's summarizing model from rendered markdown; UNVERIFIED (shell cannot reach the domain to check)."
-    ]
-  },
-  {
-    "title": "Transforming Spaces: Elegant Interior Painting by Mr Painting Houses LLC",
-    "city": "Scottsdale, AZ",
-    "date": "Jan 2024",
-    "description": "Revitalize Your Home with Seamless Paintwork. Explore the exceptional interior painting transformation by Mr Painting Houses LLC. Our team skillfully enhanced the aesthetics of the hallways, bedrooms, and living spaces with precise color application.",
-    "images": [
-      "https://landing-page-app-hero-images.s3.amazonaws.com/media/937552a5-19fc-491e-963e-69b975d681f8.jpeg"
     ],
     "link": null,
     "notes": [
@@ -137,21 +132,6 @@
     "notes": [
       "Description is the card text shown on /showcases/ (no per-project detail pages or links exist; href null for every card).",
       "Image URLs extracted by WebFetch's summarizing model from rendered markdown; UNVERIFIED (shell cannot reach the domain to check)."
-    ]
-  },
-  {
-    "title": "Transforming Homes with Expert Painting in Phoenix",
-    "city": "Gilbert, AZ",
-    "date": "Nov 2024",
-    "description": "Revitalize Your Neighborhood with Mr Painting Houses LLC. Discover how Mr Painting Houses LLC completely revitalized a beautiful home in Phoenix, Arizona. Our expert team of painters took on the challenge of enhancing this residence's curb appeal with a fresh coat of premium paint.",
-    "images": [
-      "https://landing-page-app-hero-images.s3.amazonaws.com/media/31d1e5a5-a5c5-4efd-8107-17a36d46b66d.jpeg"
-    ],
-    "link": null,
-    "notes": [
-      "Description is the card text shown on /showcases/ (no per-project detail pages or links exist; href null for every card).",
-      "Image URLs extracted by WebFetch's summarizing model from rendered markdown; UNVERIFIED (shell cannot reach the domain to check).",
-      "Card city label is Gilbert, AZ but the description says Phoenix (both verbatim from live site)."
     ]
   },
   {
@@ -211,82 +191,12 @@
     ]
   },
   {
-    "title": "Transforming Exteriors with Precision: A Poolside Painting Project",
-    "city": "Gilbert, AZ",
-    "date": "Apr 2024",
-    "description": "Revitalizing Surfaces for a Stunning Outdoor Oasis. Mr Painting Houses LLC recently completed a remarkable exterior painting project, transforming this beautiful home's poolside area.",
-    "images": [
-      "https://landing-page-app-hero-images.s3.amazonaws.com/media/f0b45bfb-5fdf-49e2-9b8e-cb47cacfbfe6.jpeg"
-    ],
-    "link": null,
-    "notes": [
-      "Description is the card text shown on /showcases/ (no per-project detail pages or links exist; href null for every card).",
-      "Image URLs extracted by WebFetch's summarizing model from rendered markdown; UNVERIFIED (shell cannot reach the domain to check)."
-    ]
-  },
-  {
-    "title": "Seamless Wall Restoration and Revitalization by Mr Painting Houses LLC",
-    "city": "Mesa, AZ",
-    "date": "May 2026",
-    "description": "Transforming Damaged Surfaces into Flawless Masterpieces for a Stunning Home Renewal. We patch holes from the walls and texture also repaint all ceiling walls, baseboards, doors and closets",
-    "images": [
-      "https://landing-page-app-hero-images.s3.amazonaws.com/media/a6a4fe58-033f-4ae8-8670-1a14c3c71a36.jpeg"
-    ],
-    "link": null,
-    "notes": [
-      "Description is the card text shown on /showcases/ (no per-project detail pages or links exist; href null for every card).",
-      "Image URLs extracted by WebFetch's summarizing model from rendered markdown; UNVERIFIED (shell cannot reach the domain to check)."
-    ]
-  },
-  {
     "title": "Transformative Exterior Painting for a Modern Desert Home",
     "city": "Phoenix, AZ",
     "date": "Jun 2026",
     "description": "Revitalizing Curb Appeal in the Heart of Arizona. Mr Painting Houses LLC successfully transformed this beautiful desert home in Arizona, enhancing its natural charm and boosting its curb appeal.",
     "images": [
       "https://landing-page-app-hero-images.s3.amazonaws.com/media/ea49ef6f-2b81-4a7e-98b5-860236c2112d.jpeg"
-    ],
-    "link": null,
-    "notes": [
-      "Description is the card text shown on /showcases/ (no per-project detail pages or links exist; href null for every card).",
-      "Image URLs extracted by WebFetch's summarizing model from rendered markdown; UNVERIFIED (shell cannot reach the domain to check)."
-    ]
-  },
-  {
-    "title": "Exceptional Exterior Transformation in Sunlit Suburb",
-    "city": "Phoenix, AZ",
-    "date": "Jun 2026",
-    "description": "Bringing Vibrancy and Value to Your Home. Discover the magic of a fresh coat of paint with Mr Painting Houses LLC! In this stunning project located in a charming suburban neighborhood, our team expertly revitalized the exterior of this beautiful home.",
-    "images": [
-      "https://landing-page-app-hero-images.s3.amazonaws.com/media/14c8bde9-870e-433a-9d0e-44190be62720.jpeg"
-    ],
-    "link": null,
-    "notes": [
-      "Description is the card text shown on /showcases/ (no per-project detail pages or links exist; href null for every card).",
-      "Image URLs extracted by WebFetch's summarizing model from rendered markdown; UNVERIFIED (shell cannot reach the domain to check)."
-    ]
-  },
-  {
-    "title": "Elegant Interior Transformation by Mr Painting Houses LLC",
-    "city": "Scottsdale, AZ",
-    "date": "Mar 2026",
-    "description": "Revitalize Your Living Space with Our Expert Touch. Discover how Mr Painting Houses LLC brought a fresh, elegant look to this beautiful home. With meticulous attention to detail, our team skillfully transformed the space with calming, neutral tones.",
-    "images": [
-      "https://landing-page-app-hero-images.s3.amazonaws.com/media/47fd213d-6b2c-44b5-a600-5881584fcb40.jpeg"
-    ],
-    "link": null,
-    "notes": [
-      "Description is the card text shown on /showcases/ (no per-project detail pages or links exist; href null for every card).",
-      "Image URLs extracted by WebFetch's summarizing model from rendered markdown; UNVERIFIED (shell cannot reach the domain to check)."
-    ]
-  },
-  {
-    "title": "Desert Elegance: Transformative Home Exterior Painting in Arizona",
-    "city": "Phoenix, AZ",
-    "date": "Apr 2026",
-    "description": "Revitalizing Homes with Precision and Style. Experience the transformation of this Arizona home with Mr Painting Houses LLC, where attention to detail meets outstanding craftsmanship.",
-    "images": [
-      "https://landing-page-app-hero-images.s3.amazonaws.com/media/655bd76c-1e1e-4baa-8e2c-f4bc4faaefbc.jpeg"
     ],
     "link": null,
     "notes": [

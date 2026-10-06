@@ -13,7 +13,7 @@ export const BIZ = {
   region: "AZ",
   zip: "85339",
   roc: "344330",
-  years: 30, // intake form says 30; old site said "20+" — confirm with client
+  years: "30+", // confirmed by client (Loom review, Oct 2026): show as "30+"
   google: { rating: "5.0", count: 28, url: "https://maps.google.com/maps?cid=1716042076630463227" },
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://mrpaintinghousesaz.com",
 };
@@ -58,7 +58,6 @@ export const IMG = {
   twoStoryC: media("0dcf9a62-a945-4c88-94dd-57d2e25bc536.jpeg"),
   kitchen: media("11f5ee5d-51ab-4712-807f-fec1ffe9d94d.png"),
   cabinets: media("6c0760bb-9000-4e04-968f-ba91474dd271.jpeg"),
-  drywall: media("97e6814b-c6ab-48bd-997d-ea3fcc9e8399.jpeg"),
   swatches: media("1f7d2ae1-bd84-497d-984c-368a8946c7c9.png"),
   singleStory: media("a9f66059-d06e-48f3-8ace-db8d5cc05c4a.png"),
   modern: media("6b47df48-3526-4af3-8ee5-641ee5b5ec37.jpeg"),
@@ -75,18 +74,68 @@ export const IMG = {
   kitchenFinished: "/work/kitchen-finished.jpg",
   cabinetsProgress: "/work/cabinets-in-progress.jpg",
   cabinetDoors: "/work/cabinet-doors-spraying.jpg",
+  // Client photos from the "EDITS x Mr Painting Houses Photos" Drive folder (Oct 2026)
+  heroHouse: "/work/exterior-two-story-driveway.jpg",
+  extStone: "/work/exterior-two-story-stone.jpg",
+  extCrew: "/work/exterior-crew-on-ladders.jpg",
+  intBeams: "/work/interior-beam-ceiling.jpg",
+  intKitchen: "/work/interior-kitchen-great-room.jpg",
+  intArch: "/work/interior-archway-painting.jpg",
+  cabBlackAfter: "/work/cabinets-black-after.jpg",
+  cabBlackBefore: "/work/cabinets-black-before.jpg",
+  cabWhiteGray: "/work/cabinets-white-gray-island.jpg",
+  cabPrep: "/work/cabinets-prep-masking.jpg",
+  pergolaSaguaro: "/work/pergola-saguaro.jpg",
+  pergolaLights: "/work/pergola-string-lights.jpg",
+  pergolaKitchen: "/work/pergola-outdoor-kitchen.jpg",
 };
 
-export type ServiceMeta = { slug: string; name: string; short: string; img: string; featured?: boolean };
+export type Photo = { src: string; caption: string };
+export type ServiceMeta = { slug: string; name: string; short: string; img: string; featured?: boolean; gallery: Photo[] };
 export const SERVICES: ServiceMeta[] = [
-  { slug: "exterior-painting", name: "Exterior Painting", short: "Stucco, fascia, trim, doors and block walls", img: IMG.twoStoryB, featured: true },
-  { slug: "interior-painting", name: "Interior Painting", short: "Walls, ceilings, trim and doors", img: IMG.interiorRolling, featured: true },
-  { slug: "kitchen-cabinet-repainting", name: "Kitchen Cabinet Repainting", short: "A factory-smooth finish without replacing cabinets", img: IMG.cabinetDoors, featured: true },
-  { slug: "drywall-installation-repair", name: "Drywall Installation & Repair", short: "Cracks, holes and texture matching", img: IMG.drywall },
-  { slug: "detailed-surface-preparation", name: "Detailed Surface Preparation", short: "Wash, scrape, patch and prime so paint lasts", img: IMG.exteriorMasking },
-  { slug: "deck-and-fence-staining", name: "Deck and Fence Staining", short: "Wood protected from sun and monsoon", img: IMG.ranch },
-  { slug: "cool-deck-restoration", name: "Cool Deck Restoration", short: "Pool deck coatings that stay cooler underfoot", img: IMG.pool },
-  { slug: "flat-roof-application", name: "Flat Roof Application", short: "Recoating for flat and low-slope roofs", img: IMG.front },
+  {
+    slug: "exterior-painting", name: "Exterior Painting", short: "Stucco, fascia, trim, doors and block walls", img: IMG.twoStoryB, featured: true,
+    gallery: [
+      { src: IMG.extStone, caption: "Two-story stucco and stone exterior" },
+      { src: IMG.heroHouse, caption: "Full exterior repaint, two-story home" },
+      { src: IMG.extCrew, caption: "Our crew painting a stucco exterior" },
+    ],
+  },
+  {
+    slug: "interior-painting", name: "Interior Painting", short: "Walls, ceilings, trim and doors", img: IMG.interiorRolling, featured: true,
+    gallery: [
+      { src: IMG.intBeams, caption: "Great room with wood beams, furniture covered" },
+      { src: IMG.intKitchen, caption: "Kitchen and great room walls and ceilings" },
+      { src: IMG.intArch, caption: "Cutting in an archway and hallway" },
+    ],
+  },
+  {
+    slug: "kitchen-cabinet-repainting", name: "Kitchen Cabinet Repainting", short: "A factory-smooth finish without replacing cabinets", img: IMG.cabBlackAfter, featured: true,
+    gallery: [
+      { src: IMG.cabBlackBefore, caption: "Before: original oak cabinets, doors off" },
+      { src: IMG.cabBlackAfter, caption: "After: the same kitchen painted black" },
+      { src: IMG.cabWhiteGray, caption: "White perimeter cabinets with a gray island" },
+      { src: IMG.cabPrep, caption: "Counters and appliances masked before spraying" },
+      { src: IMG.cabinetDoors, caption: "Cabinet doors sprayed off-site" },
+      { src: IMG.cabinetsProgress, caption: "Cabinet boxes in progress" },
+    ],
+  },
+  {
+    slug: "deck-fence-pergola-staining", name: "Deck, Fence & Pergola Staining", short: "Pergolas, decks and fences protected from sun and monsoon", img: IMG.pergolaSaguaro,
+    gallery: [
+      { src: IMG.pergolaSaguaro, caption: "Stained pergola over an outdoor kitchen" },
+      { src: IMG.pergolaLights, caption: "Dark-stained pergola, backyard patio" },
+      { src: IMG.pergolaKitchen, caption: "Pergola and outdoor kitchen, desert landscape" },
+    ],
+  },
+  {
+    slug: "detailed-surface-preparation", name: "Detailed Surface Preparation", short: "Wash, scrape, patch and prime so paint lasts", img: IMG.exteriorMasking,
+    gallery: [
+      { src: IMG.exteriorMasking, caption: "Masking windows and trim before spraying" },
+      { src: IMG.kitchenProtected, caption: "Floors and counters covered before work starts" },
+      { src: IMG.cabPrep, caption: "Kitchen masked for cabinet painting" },
+    ],
+  },
 ];
 
 export type City = { slug: string; name: string; oldSlug?: string; showcaseCity?: string; lat: number; lon: number };
@@ -119,7 +168,7 @@ export const NAV = [
   { href: "/service-areas", label: "Areas" },
 ];
 
-export const PROJECT_TYPES = ["Exterior", "Interior", "Kitchen cabinets", "Stucco repair", "Drywall repair", "Deck / fence", "Cool deck", "Flat roof"];
+export const PROJECT_TYPES = ["Exterior", "Interior", "Kitchen cabinets", "Stucco repair", "Deck / fence / pergola"];
 
 export const FAQS: { q: string; a: string }[] = [
   { q: "Do you offer free estimates?", a: "Yes. Every estimate is free and comes with no obligation. We walk the property, talk through colors and prep, and give you a detailed written quote for your project." },
@@ -127,5 +176,4 @@ export const FAQS: { q: string; a: string }[] = [
   { q: "What paint do you use?", a: "We use Sherwin-Williams product lines matched to each surface — Emerald® and Duration® topcoats, Emerald® Urethane Trim Enamel and Scuff Tuff® for cabinets, doors and trim, and Pro-Cryl® Universal Primer and DTM Acrylic for metal and patched areas." },
   { q: "How do you prep stucco and fascia before painting?", a: "We power wash every surface, inspect and fix cracks, scrape loose paint and prime for adhesion, and cover walls, windows, floors, lights and landscaping. Where fascia needs it, we apply an elastomeric coating for added durability." },
   { q: "Which cities do you serve?", a: "We're based in Laveen and paint across the Valley, including Phoenix, Gilbert, Chandler, Scottsdale, Paradise Valley, Fountain Hills, San Tan Valley and Goodyear." },
-  { q: "¿Hablan español?", a: "Sí. Llámenos o envíenos un mensaje de texto al (623) 340-6818 para una cotización gratis." },
 ];

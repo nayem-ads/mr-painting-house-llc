@@ -6,7 +6,7 @@ import { IMG } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Our Work — Project Showcases",
-  description: "Real exterior, interior and cabinet painting projects by Mr Painting Houses LLC in Phoenix, Gilbert, Chandler, Scottsdale and across the Valley.",
+  description: "Real exterior, interior, cabinet and pergola projects by Mr Painting Houses LLC in Phoenix, Gilbert, Chandler, Scottsdale and across the Valley.",
   alternates: { canonical: "/showcases" },
 };
 

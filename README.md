@@ -26,7 +26,7 @@ All photos are the client's real project photos, currently served from the old s
 | Route | Source |
 |---|---|
 | `/` | v4 homepage: roller-reveal hero + quick form, services, yard sign, process, gallery, Google reviews, Valley map, FAQ, full form |
-| `/services`, `/services/[8 slugs]` | original service copy from the old site (`content/services.json`) |
+| `/services`, `/services/[5 slugs]` | original service copy from the old site (`content/services.json`) |
 | `/service-areas`, `/service-areas/[9 cities]` | 5 original cities + Goodyear, Paradise Valley, Fountain Hills, San Tan Valley |
 | `/showcases` | 28 original project showcases, filterable |
 | `/reviews` | 28 text reviews from the old site (Google + Facebook) |
@@ -42,7 +42,6 @@ Old URLs are 301/308-redirected in `next.config.mjs`:
 - Design tokens (colors, type, spacing): top of `app/globals.css`
 
 ## Confirm with the client before launch
-- Years in business: site uses **30** (intake form); old site said "20+".
+- Years in business: shown as **30+** (client-confirmed).
 - Hours: site uses intake-form hours (Mon–Fri 6–7, Sat 7–5, Sun 8–3). Google Business Profile says "closes 6 PM"; old footer had a "6:00am – 6:00am" bug.
-- "Se habla español" is shown site-wide — confirm.
 - Privacy policy is a starter template — have the client review it.

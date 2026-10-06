@@ -4,7 +4,7 @@ import { CtaBand, ProofBand, ReviewsBlock } from "@/components/Sections";
 import { BIZ } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "30 Years Painting Arizona Homes",
+  title: "30+ Years Painting Arizona Homes",
   description: `Meet the crew behind Mr Painting Houses LLC — ${BIZ.years} years of painting experience, licensed AZ ROC #${BIZ.roc}, and part of the Valley's trades community.`,
   alternates: { canonical: "/30-years" },
 };
@@ -24,9 +24,9 @@ export default function ThirtyYears() {
       <section className="ty-hero">
         <div className="wrap ty-hero__grid">
           <div className="ty-hero__copy">
-            <nav className="crumbs" aria-label="Breadcrumb"><span><Link href="/">Home</Link> /</span><span>30 years</span></nav>
+            <nav className="crumbs" aria-label="Breadcrumb"><span><Link href="/">Home</Link> /</span><span>30+ years</span></nav>
             <p className="ty-big">{BIZ.years}<span>years</span></p>
-            <h1>Three decades of painting Arizona homes.</h1>
+            <h1>More than three decades of painting Arizona homes.</h1>
             <p className="lead">The same crew that shows up in our uniforms on your street — licensed, bonded and insured under AZ ROC #{BIZ.roc}, and still doing the prep work the right way.</p>
             <div className="ty-actions">
               <Link className="btn btn--red" href="/contact">Get a free estimate</Link>
@@ -45,8 +45,8 @@ export default function ThirtyYears() {
       <section className="section">
         <div className="wrap ty-values">
           <div>
-            <h2 className="h-lg">What 30 years teaches you</h2>
-            <p className="lead mt">Arizona sun is hard on paint. After three decades of repainting Valley homes, we know the shortcuts that fail — and we don&apos;t take them.</p>
+            <h2 className="h-lg">What 30+ years teaches you</h2>
+            <p className="lead mt">Arizona sun is hard on paint. After more than three decades of repainting Valley homes, we know the shortcuts that fail — and we don&apos;t take them.</p>
           </div>
           <ul className="ty-list">
             <li><b>Prep comes first.</b> Power washing, crack repair, scraping and priming before a single topcoat goes on.</li>

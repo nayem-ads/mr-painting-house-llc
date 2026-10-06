@@ -7,8 +7,8 @@ export function Hero() {
   return (
     <section className="hero" aria-label="Intro">
       <div className="hero__stage">
-        <img className="hero__img" src={IMG.exteriorMasking} alt="Mr Painting Houses painter masking a stucco home before spraying" fetchPriority="high" />
-        <img className="hero__faded" src={IMG.exteriorMasking} alt="" aria-hidden="true" />
+        <img className="hero__img" src={IMG.heroHouse} alt="Two-story stucco and stone home freshly painted by Mr Painting Houses" fetchPriority="high" />
+        <img className="hero__faded" src={IMG.heroHouse} alt="" aria-hidden="true" />
         <div className="hero__scrim" />
         <div className="hero__edge" aria-hidden="true" />
         <div className="roller" aria-hidden="true"><div className="roller__frame" /><div className="roller__cover" /><div className="roller__handle" /></div>
@@ -38,12 +38,12 @@ export function ProofBand() {
 }
 
 export function Swatches({ title = "Pick your project", all = false }: { title?: string; all?: boolean }) {
-  const list = all ? SERVICES : [...SERVICES.filter((s) => s.featured), SERVICES[3], SERVICES[6]];
+  const list = all ? SERVICES : SERVICES.filter((s) => s.featured);
   return (
     <section className="section section--primer">
       <div className="wrap">
-        <div className="head-row"><h2 className="h-lg">{title}</h2><p className="lead">Exterior, interior and cabinets are the big three. We handle the repairs underneath so the paint lasts.</p></div>
-        <div className="swatches" style={all ? { gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))" } : undefined}>
+        <div className="head-row"><h2 className="h-lg">{title}</h2><p className="lead">{all ? "Exterior, interior and cabinets are the big three — plus pergola, deck and fence staining and the prep that makes paint last." : "Exterior, interior and kitchen cabinets — painted by a licensed crew with 30+ years painting Arizona homes."}</p></div>
+        <div className={all ? "swatches" : "swatches swatches--3"} style={all ? { gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))" } : undefined}>
           {list.map((s) => (
             <Link key={s.slug} className="swatch" href={`/services/${s.slug}`}>
               <img src={s.img} alt="" loading="lazy" />

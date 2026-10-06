@@ -4,14 +4,14 @@ import { IMG } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Painting Services",
-  description: "Exterior and interior house painting, kitchen cabinet repainting, drywall repair, surface prep, deck and fence staining, cool deck restoration and flat roof coatings across the Phoenix Valley.",
+  description: "Exterior and interior house painting, kitchen cabinet repainting, deck, fence and pergola staining, and detailed surface prep across the Phoenix Valley.",
   alternates: { canonical: "/services" },
 };
 
 export default function Services() {
   return (
     <>
-      <PageHero title="Painting services" text="Everything a Valley home needs painted, repaired or recoated — handled by one licensed crew." img={IMG.stoneSign} crumbs={[["Home", "/"], ["Services"]]} />
+      <PageHero title="Painting services" text="Exterior, interior, cabinets and pergola staining — handled by one licensed crew." img={IMG.stoneSign} crumbs={[["Home", "/"], ["Services"]]} />
       <Swatches title="What we do" all />
       <Process />
       <ReviewsBlock limit={4} />

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Aside, CtaBand, Faq, PageHero, Process, ReviewCards, Swatches } from "@/components/Sections";
 import { getReviews, getShowcases } from "@/lib/content";
-import { BIZ, CITIES, FAQS, IMG } from "@/lib/site";
+import { BIZ, CITIES, FAQS, IMG, SERVICES } from "@/lib/site";
 
 export const dynamicParams = false;
 export const generateStaticParams = () => CITIES.map((c) => ({ slug: c.slug }));
@@ -37,7 +37,7 @@ export default async function CityPage({ params }: { params: Promise<{ slug: str
             <p>Every job starts with preparation: power washing, fixing cracks, scraping loose paint and priming for proper adhesion. We cover walls, windows, floors, lights and landscaping, then finish with premium Sherwin-Williams coatings.</p>
             <h2>Our services in {c.name}</h2>
             <ul>
-              {["Exterior Painting", "Interior Painting", "Deck and Fence Staining", "Kitchen Cabinet Repainting", "Drywall Installation & Repair", "Detailed Surface Preparation", "Flat Roof Application", "Cool Deck Restoration"].map((s) => <li key={s}>{s}</li>)}
+              {SERVICES.map((s) => <li key={s.slug}><Link href={`/services/${s.slug}`}>{s.name}</Link></li>)}
             </ul>
             <h2>Get a quote</h2>
             <p>Receiving a quote is easy and only takes three simple steps:</p>
