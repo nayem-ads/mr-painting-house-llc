@@ -196,12 +196,12 @@
     "date": "Jun 2026",
     "description": "Revitalizing Curb Appeal in the Heart of Arizona. Mr Painting Houses LLC successfully transformed this beautiful desert home in Arizona, enhancing its natural charm and boosting its curb appeal.",
     "images": [
-      "https://landing-page-app-hero-images.s3.amazonaws.com/media/ea49ef6f-2b81-4a7e-98b5-860236c2112d.jpeg"
+      "/work/exterior-desert-two-story.jpg"
     ],
     "link": null,
     "notes": [
       "Description is the card text shown on /showcases/ (no per-project detail pages or links exist; href null for every card).",
-      "Image URLs extracted by WebFetch's summarizing model from rendered markdown; UNVERIFIED (shell cannot reach the domain to check)."
+      "Photo replaced 2026-10-07 per Jay (old image ea49ef6f-2b81-4a7e-98b5-860236c2112d.jpeg was wrong)."
     ]
   },
   {
@@ -210,12 +210,12 @@
     "date": "Jun 2026",
     "description": "Expert Painting Revitalizes Modern Residences. Discover how Mr Painting Houses LLC elevated this beautiful home's curb appeal with a professional exterior paint job using top-of-the-line SuperPaint® Exterior Acrylic Latex.",
     "images": [
-      "https://landing-page-app-hero-images.s3.amazonaws.com/media/3da6c7d4-4451-4677-aa32-2b71c900a4dd.jpeg"
+      "/work/exterior-sherwin-williams-portico.jpg"
     ],
     "link": null,
     "notes": [
       "Description is the card text shown on /showcases/ (no per-project detail pages or links exist; href null for every card).",
-      "Image URLs extracted by WebFetch's summarizing model from rendered markdown; UNVERIFIED (shell cannot reach the domain to check)."
+      "Photo replaced 2026-10-07 per Jay (old image 3da6c7d4-4451-4677-aa32-2b71c900a4dd.jpeg was wrong)."
     ]
   },
   {
@@ -266,12 +266,12 @@
     "date": "Jun 2026",
     "description": "Expert Exterior Painting by Mr Painting Houses LLC. Discover how Mr Painting Houses LLC revitalized this beautiful home with a stunning exterior paint job. Our team expertly selected colors that harmonize with the architectural style.",
     "images": [
-      "https://landing-page-app-hero-images.s3.amazonaws.com/media/be4e7636-8a84-4a9c-a12c-a2974100b814.jpeg"
+      "/work/exterior-garage-color-scheme.jpg"
     ],
     "link": null,
     "notes": [
       "Description is the card text shown on /showcases/ (no per-project detail pages or links exist; href null for every card).",
-      "Image URLs extracted by WebFetch's summarizing model from rendered markdown; UNVERIFIED (shell cannot reach the domain to check)."
+      "Photo replaced 2026-10-07 per Jay (old image be4e7636-8a84-4a9c-a12c-a2974100b814.jpeg was wrong)."
     ]
   },
   {
@@ -280,12 +280,12 @@
     "date": "Jun 2026",
     "description": "Transform Your Home's Exterior with a Fresh, Modern Finish by Mr Painting Houses LLC. Mr Painting Houses LLC recently completed an impressive exterior painting project in Chandler, AZ, revitalizing a home's curb appeal with expertise and precision.",
     "images": [
-      "https://landing-page-app-hero-images.s3.amazonaws.com/media/6f79fe93-c7a3-45da-89f5-1923fd8ea9c6.jpeg"
+      "/work/exterior-chandler-garage-shutters.jpg"
     ],
     "link": null,
     "notes": [
       "Description is the card text shown on /showcases/ (no per-project detail pages or links exist; href null for every card).",
-      "Image URLs extracted by WebFetch's summarizing model from rendered markdown; UNVERIFIED (shell cannot reach the domain to check)."
+      "Photo replaced 2026-10-07 per Jay (old image 6f79fe93-c7a3-45da-89f5-1923fd8ea9c6.jpeg was wrong)."
     ]
   },
   {
